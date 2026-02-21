@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="dark:bg-gray-950 dark:text-white">
+    <div class="w-100vw">
+        <div class="flex h-full">
+            <div class="flex flex-col min-h-screen border-r-2 border-gray-800">
+                <div class="border-b-2 border-gray-800 p-3">
+                    <h1 class="font-bold text-3xl text-green-400">Calender App</h1>
+                </div>
+                <div class="p-3 flex flex-col">
+                    <button class="dark:bg-green-400/10 font-semibold dark:text-green-100 rounded-r-xl px-3 py-2">Calender</button>
+                </div>
+            </div>
+            <div class="flex flex-col gap-3 p-16 w-full">
+                <div class="flex justify-between w-full">
+                    <h1 class="text-3xl font-bold ">
+                        Februari 2026
+                    </h1>
+                    <input type="text ">
+                    <button class="rounded-md dark:bg-white dark:text-black px-3 py-2 ">Tambah Acara</button>
+                </div>
+                <div class="bg-white p-3 rounded-md w-full">
+                    <table class="rounded-md dark:text-black w-full">
+                        <tr class="">
+                            <th></th>
+                            <th class="px-3 py-2 border border-black bg-gray-200">Senin, 21</th>
+                            <th class="px-3 py-2 border border-black bg-gray-200">Selasa, 21</th>
+                            <th class="px-3 py-2 border border-black bg-gray-200">Rabu, 21</th>
+                            <th class="px-3 py-2 border border-black bg-gray-200">Kamis, 21</th>
+                            <th class="px-3 py-2 border border-black bg-gray-200">Jum'at, 21</th>
+                            <th class="px-3 py-2 border border-black bg-gray-200">Sabtu, 21</th>
+                            <th class="px-3 py-2 border border-black bg-gray-200">Minggu, 21</th>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2 w-16 font-bold">Shubuh</td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2 w-16 font-bold">Dzuhur</td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2 w-16 font-bold">Ashar</td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2 w-16 font-bold">Maghrib</td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2 w-16 font-bold">Isya</td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                            <td class="border size-40"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="w-100vw text-center p-3 ">
+            <span class="text-gray-400 dark:text-gray-700 ">Created By Dyala Muhammad.</span>
+        </div>
+    </div>
+</body>
+
+</html>
